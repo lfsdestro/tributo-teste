@@ -6,8 +6,8 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 350px; /* Defina a largura do ClientMenu conforme necessário */
-    z-index: 2; /* Ajuste o índice z conforme necessário para garantir que o ClientMenu fique sobreposto */
+    width: 350px; 
+    z-index: 2; 
   }
 
   .client-menu-header {
@@ -46,17 +46,18 @@
   }
 
   .clickable-text {
-    color: #007bff; /* Adicione a cor azul para o texto padrão */
+    color: #007bff; 
     cursor: pointer;
   }
   
   .clickable-text:hover {
-    color: #0456ad; /* Adicione um sublinhado ao passar o mouse sobre o texto */
+    color: #0456ad; 
   }
   
   .clickable-text-active {
-    color: #007bff; /* Adicione a cor vermelha para o texto quando o ClientMenu estiver aberto */
+    color: #007bff;
     cursor: pointer;
   }
 
+  
   
