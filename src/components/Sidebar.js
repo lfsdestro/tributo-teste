@@ -21,6 +21,11 @@ const Sidebar = ({ setContent }) => {
       setContent('Ressarcimento');
       setSelectedOption('Ressarcimento');
     };
+
+    const handleConfiguraçõesClick = () => {
+      setContent('Configurações');
+      setSelectedOption('Configurações');
+    };
   
     return (
       <div className="col-md-3 col-sm-12 sidebar-container">
@@ -42,7 +47,7 @@ const Sidebar = ({ setContent }) => {
             Ressarcimento
           </li>
           {/* ... outras opções */}
-          <li className="list-group-item config">
+          <li className={`list-group-item config ${selectedOption === 'Configurações' ? 'active' : ''}`} onClick={handleConfiguraçõesClick}>
             <FontAwesomeIcon icon={faCog} className="mr-2" />
             Configurações
           </li>
