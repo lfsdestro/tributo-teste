@@ -16,11 +16,11 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Aumenta o espaçamento entre as opções do sidebar */
+    margin-bottom: 10px; 
   }
   
   .list-group-item .mr-2 {
-    margin-right: 10px; /* Adiciona espaçamento entre o ícone e o texto */
+    margin-right: 10px; 
   }
   
   .list-group-item.active {
@@ -75,6 +75,13 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .svg-image {
+    display: block;
+    margin: 0 auto;
+    width: 500px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
   
 
   /* Media queries para dispositivos móveis */
@@ -84,7 +91,11 @@
     }
   
     .logo {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .svg-image {
+      display: none;
     }
   }
