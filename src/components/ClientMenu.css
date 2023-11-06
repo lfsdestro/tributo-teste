@@ -1,0 +1,62 @@
+.client-menu-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 1px solid #dee2e6;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px; /* Defina a largura do ClientMenu conforme necessário */
+    z-index: 2; /* Ajuste o índice z conforme necessário para garantir que o ClientMenu fique sobreposto */
+  }
+
+  .client-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close {
+    font-size: 1.5rem;
+    color: #000;
+    opacity: 0.5;
+    border: none;
+    background: none;
+  }
+  
+  .client-list {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .list-group-item p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+  
+  .list-group-item p strong {
+    font-weight: bold;
+  }
+
+  .clickable-text {
+    color: #007bff; /* Adicione a cor azul para o texto padrão */
+    cursor: pointer;
+  }
+  
+  .clickable-text:hover {
+    color: #0456ad; /* Adicione um sublinhado ao passar o mouse sobre o texto */
+  }
+  
+  .clickable-text-active {
+    color: #007bff; /* Adicione a cor vermelha para o texto quando o ClientMenu estiver aberto */
+    cursor: pointer;
+  }
+
+  

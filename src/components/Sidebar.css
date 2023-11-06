@@ -1,0 +1,89 @@
+.sidebar-container {
+    background-color: #ffff;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .list-group-item {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Aumenta o espaçamento entre as opções do sidebar */
+  }
+  
+  .list-group-item .mr-2 {
+    margin-right: 10px; /* Adiciona espaçamento entre o ícone e o texto */
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .config {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+.workspace-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .card-title {
+    margin-top: 0.5rem; /* Ajusta a margem superior do título */
+  }
+  
+  .card-subtitle {
+    margin-bottom: 1.5rem; /* Ajusta a margem inferior do subtítulo */
+  }
+
+  .recup-title {
+    background-color: #8cbdf1; /* Adiciona a cor de fundo ao título */
+    color: #fff; /* Adiciona a cor do texto para contrastar com o fundo */
+    padding: 10px 15px; /* Adiciona um preenchimento ao redor do título para aumentar o destaque */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao título */
+  }
+  
+  .card-body {
+    width: 100%;
+  }
+  
+  .input-group {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  /* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    .sidebar-container {
+      padding: 10px;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
