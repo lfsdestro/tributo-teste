@@ -29,6 +29,7 @@
   }
 
   .config {
+    width: 342px;
     position: absolute;
     bottom: 20px;
   }

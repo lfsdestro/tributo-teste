@@ -35,7 +35,7 @@ const MainContent = ({ content }) => {
                 aria-label="Pesquisar"
                 aria-describedby="button-addon2"
                 onChange={handleSearch} />
-            <button className="btn btn-outline-secondary" type="button" id="button-addon2" clients={filteredClients} onClick={handleClientMenuClick}>
+            <button className="btn btn-outline-secondary" type="button" id="button-addon2" onClick={handleClientMenuClick}>
             <FontAwesomeIcon icon={faSearch} className="mr-2" />
             </button>
           </div>
@@ -56,6 +56,14 @@ const MainContent = ({ content }) => {
           <div className="card-body">
             <h5 className="card-title">Ressarcimento</h5>
             <p className="card-text">Conteúdo de ressarcimento.</p>
+          </div>
+        </div>
+      )}
+      {content === 'Configurações' && (
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">Configurações</h5>
+            <p className="card-text">Conteúdo de configurações.</p>
           </div>
         </div>
       )}
